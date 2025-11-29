@@ -35,5 +35,5 @@ python manage.py runserver
 - `/api/listings/` - list, retrieve, create, update, delete listings
 - `/api/listings/<listing_id>/reviews/` - list, retrieve, create, update, delete reviews
 - `/api/bookings/` - list, retrieve, create, update, delete bookings
-- `/api/bookings/<listing_id>/` - list all bookings for a specific listing
+- `/api/bookings/?listing=<listing_id>/` - list all bookings for a specific listing
 - `/swagger/` - interactive API documentation
