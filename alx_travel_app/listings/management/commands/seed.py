@@ -8,7 +8,7 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         host = User.objects.first()
         if not host:
-            host = User.objects.create_user(username="host1", password="pass12345")
+            host = User.objects.create_user(username="host1", password="pass")
 
         sample_data = [
             {
